@@ -299,3 +299,83 @@ body {
     color: #e9e9e9;
     transition: 0.3s ease-out;
 }
+
+/* CSS for Data Transformations */
+.reflection h2 {
+    font-size: 3rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, rgb(13, 169, 52) 0%,rgb(150, 254, 21)w 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.reflection p {
+    font-size: 1.5rem;
+    color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* CSS for Misleading vis page */
+.misleading_refinement h2 {
+    font-size: 3rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, rgb(13, 169, 52) 0%,rgb(150, 254, 21)w 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.misleading_refinement p {
+    font-size: 1.5rem;
+    color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+}
+
+figcaption a {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 14px;
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+}
+
+figure {
+    text-align: center; /* Center-align the images */
+}
+
+/* Style for the images within the figure */
+.unemployment img {
+    display: inline-block; 
+    width: 45%; 
+    margin: 0 2.5%; 
+    vertical-align: top; 
+}
+
+.misleading_vis {
+    margin-top: 30px;
+}
+
